@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        tools:context=".QuizActivity">
+        <TextView
+            android:id="@+id/scoreTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:freezesText="true"
+            android:text="@string/score_0"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/questionCountTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scoreTextViewId"
+            android:freezesText="true"
+            android:text="@string/question_1_x"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/difficultyTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/questionCountTextViewId"
+            android:freezesText="true"
+            android:text="@string/difficulty"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/categoryTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/difficultyTextViewId"
+            android:freezesText="true"
+            android:text="@string/categories"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/countdownTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:freezesText="true"
+            android:text="@string/_00_30"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+
+            android:id="@+id/questionTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/categoryTextViewId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="36dp"
+            android:freezesText="true"
+            android:gravity="bottom"
+            android:text="@string/here_will_be_the_question_text_nhere_will_be_the_question_text_nhere_will_be_the_question_text"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:layout_below="@+id/questionTextViewId"
+            android:id="@+id/radioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:id="@+id/radioButton1Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:text="@string/option_1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:text="@string/option_2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton3Id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:freezesText="true"
+                android:text="@string/option_3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/confirmButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGroupId"
+            android:layout_marginTop="20dp"
+            android:text="@string/confirm"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>

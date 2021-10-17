@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="my_quiz_app">My Quiz App</string>
+    <string name="start_quiz">start quiz</string>
+    <string name="highscore_0">HighScore: 0</string>
+    <string name="score_0">Score: 0</string>
+    <string name="question_1_x">Question: 1/x</string>
+    <string name="_00_30">00:30</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_3">option 3</string>
+    <string name="here_will_be_the_question_text_nhere_will_be_the_question_text_nhere_will_be_the_question_text">Here will be the question text\nHere will be the question text\nHere will be the question text</string>
+    <string name="confirm">confirm</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="categories">Categories :</string>
+    <string name="level">Level :</string>
+    <string name="ans_1_correct">Answer 1 is correct</string>
+    <string name="ans_2_correct">Answer 2 is correct</string>
+    <string name="ans_3_correct">Answer 3 is correct</string>
+    <string name="next">Next</string>
+    <string name="finish">Finish</string>
+</resources>
